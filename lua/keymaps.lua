@@ -32,3 +32,5 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 -- nvim tree开关
 vim.keymap.set('n', '<leader>tt', '<cmd>NvimTreeToggle<CR>', { desc = '[T]oggle nvim [T]ree' })
+-- 关闭当前buffer
+vim.keymap.set('n', '<leader>x', '<cmd>q<CR>', { desc = 'Close current buffer' })
