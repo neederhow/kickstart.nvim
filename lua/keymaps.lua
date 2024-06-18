@@ -34,3 +34,5 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('n', '<leader>tt', '<cmd>NvimTreeToggle<CR>', { desc = '[T]oggle nvim [T]ree' })
 -- 关闭当前buffer
 vim.keymap.set('n', '<leader>x', '<cmd>q<CR>', { desc = 'Close current buffer' })
+-- 打开新buffer
+vim.keymap.set('n', '<leader>n', ':enew<CR>', { desc = '[N]ew buffer'})
