@@ -69,3 +69,6 @@ vim.g.loaded_netrwPlugin = 1
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+vim.opt.autoread = true
+vim.opt.autowriteall = true
+
