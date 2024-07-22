@@ -35,6 +35,6 @@ vim.keymap.set('n', '<leader>tt', '<cmd>NvimTreeToggle<CR>', { desc = '[T]oggle 
 -- 切换markdown task
 vim.keymap.set('n', '<leader>mt', ':MDTaskToggle<CR>', { desc = '[M]arkdown [T]ask toggle'})
 -- 关闭当前buffer
-vim.keymap.set('n', '<leader>x', '<cmd>q<CR>', { desc = 'Close current buffer' })
+vim.keymap.set('n', '<leader>x', ':bd<CR>', { desc = 'Close current buffer' })
 -- 打开新buffer
 vim.keymap.set('n', '<leader>n', ':enew<CR>', { desc = '[N]ew buffer'})
