@@ -1,3 +1,4 @@
+-- 缩进级别提示条
 return {
   { -- Add indentation guides even on blank lines
     'lukas-reineke/indent-blankline.nvim',
