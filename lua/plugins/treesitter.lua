@@ -3,7 +3,7 @@ return { -- Highlight, edit, and navigate code
   build = ':TSUpdate',
   dependencies = { 'tadmccorkle/markdown.nvim' },
   opts = {
-    ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'vim', 'vimdoc' },
+    ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'vim', 'vimdoc', 'hyprlang' },
     markdown = { enable = true },
     -- Autoinstall languages that are not installed
     auto_install = true,
